@@ -1,145 +1,337 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Alex Dev — Independent software developer building modern digital experiences and AI-powered projects.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="theme-color" content="#080a12">
+  <meta name="description" content="Alex Dev — Independent software developer exploring artificial intelligence, web development and innovative digital projects.">
+
+  <meta property="og:title" content="Alex Dev | Software Developer">
+  <meta property="og:description" content="Building digital experiences, exploring AI and turning ideas into technology.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://porqueisso460-ship-it.github.io/alexdev-portfolio/">
+
   <title>Alex Dev | Software Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header class="header">
-    <a href="#" class="logo">ALEX<span>DEV.</span></a>
+    <a href="#home" class="logo" aria-label="Alex Dev home">
+      ALEX<span>DEV.</span>
+    </a>
 
-    <nav>
+    <nav aria-label="Main navigation">
       <a href="#about" data-en="About" data-pt="Sobre">About</a>
+      <a href="#skills" data-en="Skills" data-pt="Habilidades">Skills</a>
       <a href="#projects" data-en="Projects" data-pt="Projetos">Projects</a>
       <a href="#contact" data-en="Contact" data-pt="Contato">Contact</a>
     </nav>
 
-    <button id="languageButton" class="language-button">PT</button>
+    <button id="languageButton" class="language-button"
+      type="button" aria-label="Change language">
+      PT
+    </button>
   </header>
 
   <main>
-    <section class="hero">
+
+    <section class="hero" id="home">
       <div class="hero-content">
-        <p class="eyebrow" data-en="INDEPENDENT SOFTWARE DEVELOPER" data-pt="DESENVOLVEDOR DE SOFTWARE INDEPENDENTE">
+
+        <p class="eyebrow"
+          data-en="INDEPENDENT SOFTWARE DEVELOPER"
+          data-pt="DESENVOLVEDOR DE SOFTWARE INDEPENDENTE">
           INDEPENDENT SOFTWARE DEVELOPER
         </p>
 
         <h1>
-          <span data-en="Building the" data-pt="Construindo o">Building the</span><br>
-          <span class="gradient" data-en="digital future." data-pt="futuro digital.">digital future.</span>
+          <span data-en="Building the" data-pt="Construindo o">Building the</span>
+          <br>
+          <span class="gradient"
+            data-en="digital future."
+            data-pt="futuro digital.">
+            digital future.
+          </span>
         </h1>
 
         <p class="hero-description"
-           data-en="I create digital experiences, explore artificial intelligence and turn ideas into technology."
-           data-pt="Crio experiências digitais, exploro inteligência artificial e transformo ideias em tecnologia.">
-          I create digital experiences, explore artificial intelligence and turn ideas into technology.
+          data-en="I explore technology, develop digital projects and transform creative ideas into practical solutions."
+          data-pt="Exploro tecnologia, desenvolvo projetos digitais e transformo ideias criativas em soluções práticas.">
+          I explore technology, develop digital projects and transform creative ideas into practical solutions.
         </p>
 
         <div class="hero-buttons">
           <a href="#projects" class="button primary"
-             data-en="Explore my projects" data-pt="Conheça meus projetos">Explore my projects</a>
+            data-en="Explore my projects"
+            data-pt="Conheça meus projetos">
+            Explore my projects
+          </a>
+
           <a href="#contact" class="button secondary"
-             data-en="Get in touch" data-pt="Entre em contato">Get in touch</a>
+            data-en="Get in touch"
+            data-pt="Entre em contato">
+            Get in touch
+          </a>
         </div>
+
+        <div class="hero-social">
+          <a href="https://github.com/porqueisso460-ship-it"
+            target="_blank" rel="noopener noreferrer">
+            GitHub ↗
+          </a>
+          <span>·</span>
+          <span data-en="Independent creator"
+            data-pt="Criador independente">
+            Independent creator
+          </span>
+        </div>
+
       </div>
 
       <div class="hero-card">
         <div class="card-top">
           <span class="status-dot"></span>
-          <span data-en="CURRENT STATUS" data-pt="STATUS ATUAL">CURRENT STATUS</span>
+          <span data-en="CREATIVE DEVELOPER"
+            data-pt="DESENVOLVEDOR CRIATIVO">
+            CREATIVE DEVELOPER
+          </span>
         </div>
+
         <div class="code-icon">&lt;/&gt;</div>
+
         <h2>Alex Dev</h2>
+
         <p data-en="Turning ideas into digital solutions."
-           data-pt="Transformando ideias em soluções digitais.">
+          data-pt="Transformando ideias em soluções digitais.">
           Turning ideas into digital solutions.
         </p>
-        <div class="card-footer">CREATIVE · TECHNOLOGY · INNOVATION</div>
+
+        <div class="card-footer">
+          TECHNOLOGY · CREATIVITY · INNOVATION
+        </div>
       </div>
     </section>
 
     <section id="about" class="section">
-      <p class="eyebrow" data-en="01 — ABOUT ME" data-pt="01 — SOBRE MIM">01 — ABOUT ME</p>
-      <h2 data-en="Technology starts with an idea." data-pt="A tecnologia começa com uma ideia.">
-        Technology starts with an idea.
+      <p class="eyebrow"
+        data-en="01 — ABOUT ME"
+        data-pt="01 — SOBRE MIM">
+        01 — ABOUT ME
+      </p>
+
+      <h2 data-en="Curiosity creates the future."
+        data-pt="A curiosidade constrói o futuro.">
+        Curiosity creates the future.
       </h2>
+
       <p class="section-description"
-         data-en="I'm an independent developer interested in software, web experiences and artificial intelligence. My goal is to keep learning, experimenting and building useful digital products."
-         data-pt="Sou um desenvolvedor independente interessado em software, experiências web e inteligência artificial. Meu objetivo é continuar aprendendo, experimentando e criando produtos digitais úteis.">
-        I'm an independent developer interested in software, web experiences and artificial intelligence. My goal is to keep learning, experimenting and building useful digital products.
+        data-en="I'm an independent developer interested in software, web development and artificial intelligence. I enjoy exploring new technologies, experimenting with ideas and building digital products that can make a difference."
+        data-pt="Sou um desenvolvedor independente interessado em software, desenvolvimento web e inteligência artificial. Gosto de explorar novas tecnologias, experimentar ideias e construir produtos digitais que possam fazer a diferença.">
+        I'm an independent developer interested in software, web development and artificial intelligence. I enjoy exploring new technologies, experimenting with ideas and building digital products that can make a difference.
       </p>
     </section>
 
-    <section id="projects" class="section">
-      <p class="eyebrow" data-en="02 — SELECTED WORK" data-pt="02 — PROJETOS EM DESTAQUE">
-        02 — SELECTED WORK
+    <section id="skills" class="section skills-section">
+      <p class="eyebrow"
+        data-en="02 — AREAS OF INTEREST"
+        data-pt="02 — ÁREAS DE INTERESSE">
+        02 — AREAS OF INTEREST
       </p>
-      <h2 data-en="Projects I'm building." data-pt="Projetos que estou desenvolvendo.">
-        Projects I'm building.
+
+      <h2 data-en="What I'm exploring."
+        data-pt="O que estou explorando.">
+        What I'm exploring.
       </h2>
 
+      <p class="section-description"
+        data-en="Technology is constantly evolving. These are some of the areas I focus on learning and developing."
+        data-pt="A tecnologia está em constante evolução. Estas são algumas das áreas nas quais foco meu aprendizado e desenvolvimento.">
+        Technology is constantly evolving. These are some of the areas I focus on learning and developing.
+      </p>
+
+      <div class="skills-grid">
+
+        <article class="skill-card">
+          <div class="skill-icon">⌘</div>
+          <h3 data-en="Software Development"
+            data-pt="Desenvolvimento de Software">
+            Software Development
+          </h3>
+          <p data-en="Exploring software architecture, programming logic and digital solutions."
+            data-pt="Explorando arquitetura de software, lógica de programação e soluções digitais.">
+            Exploring software architecture, programming logic and digital solutions.
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">✳</div>
+          <h3 data-en="Artificial Intelligence"
+            data-pt="Inteligência Artificial">
+            Artificial Intelligence
+          </h3>
+          <p data-en="Experimenting with AI assistants, automation and intelligent applications."
+            data-pt="Experimentando assistentes de IA, automação e aplicações inteligentes.">
+            Experimenting with AI assistants, automation and intelligent applications.
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">◈</div>
+          <h3 data-en="Web Experiences"
+            data-pt="Experiências Web">
+            Web Experiences
+          </h3>
+          <p data-en="Building modern interfaces and responsive digital experiences."
+            data-pt="Construindo interfaces modernas e experiências digitais responsivas.">
+            Building modern interfaces and responsive digital experiences.
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3 data-en="Innovation"
+            data-pt="Inovação">
+            Innovation
+          </h3>
+          <p data-en="Turning concepts into experiments, prototypes and useful products."
+            data-pt="Transformando conceitos em experimentos, protótipos e produtos úteis.">
+            Turning concepts into experiments, prototypes and useful products.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow"
+        data-en="03 — SELECTED PROJECTS"
+        data-pt="03 — PROJETOS EM DESTAQUE">
+        03 — SELECTED PROJECTS
+      </p>
+
+      <h2 data-en="Ideas becoming reality."
+        data-pt="Ideias se tornando realidade.">
+        Ideas becoming reality.
+      </h2>
+
+      <p class="section-description"
+        data-en="A selection of digital projects I'm working on."
+        data-pt="Uma seleção de projetos digitais nos quais estou trabalhando.">
+        A selection of digital projects I'm working on.
+      </p>
+
       <div class="project-grid">
-        <article class="project-card">
-          <div class="project-number">PROJECT 01</div>
-          <div class="project-symbol">◈</div>
+
+        <article class="project-card jarvis">
+          <div class="project-top">
+            <span class="project-number">PROJECT 01</span>
+            <span class="project-symbol">◈</span>
+          </div>
+
           <h3>JARVIS OS</h3>
+
           <p data-en="An AI assistant project focused on intelligent interactions, automation and digital productivity."
-             data-pt="Um projeto de assistente de IA focado em interações inteligentes, automação e produtividade digital.">
+            data-pt="Um projeto de assistente de IA focado em interações inteligentes, automação e produtividade digital.">
             An AI assistant project focused on intelligent interactions, automation and digital productivity.
           </p>
-          <span class="project-status" data-en="In development" data-pt="Em desenvolvimento">
+
+          <span class="project-status"
+            data-en="In development"
+            data-pt="Em desenvolvimento">
             In development
           </span>
         </article>
 
-        <article class="project-card">
-          <div class="project-number">PROJECT 02</div>
-          <div class="project-symbol">✳</div>
+        <article class="project-card calofao">
+          <div class="project-top">
+            <span class="project-number">PROJECT 02</span>
+            <span class="project-symbol">✳</span>
+          </div>
+
           <h3>CALOFAO</h3>
+
           <p data-en="A digital platform project focused on creating an accessible and useful online experience."
-             data-pt="Um projeto de plataforma digital focado em criar uma experiência online acessível e útil.">
+            data-pt="Um projeto de plataforma digital focado em criar uma experiência online acessível e útil.">
             A digital platform project focused on creating an accessible and useful online experience.
           </p>
-          <a class="project-link" href="https://colofao.lovable.app" target="_blank" rel="noopener noreferrer"
-             data-en="Visit project ↗" data-pt="Visitar projeto ↗">Visit project ↗</a>
+
+          <a class="project-link"
+            href="https://colofao.lovable.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-en="Visit project ↗"
+            data-pt="Visitar projeto ↗">
+            Visit project ↗
+          </a>
         </article>
+
       </div>
     </section>
 
     <section class="section approach">
-      <p class="eyebrow" data-en="03 — MY APPROACH" data-pt="03 — MINHA ABORDAGEM">03 — MY APPROACH</p>
-      <h2 data-en="Learn. Build. Improve." data-pt="Aprender. Criar. Melhorar.">
+      <p class="eyebrow"
+        data-en="04 — MY APPROACH"
+        data-pt="04 — MINHA ABORDAGEM">
+        04 — MY APPROACH
+      </p>
+
+      <h2 data-en="Learn. Build. Improve."
+        data-pt="Aprender. Criar. Melhorar.">
         Learn. Build. Improve.
       </h2>
+
       <p class="section-description"
-         data-en="Every project is an opportunity to experiment, solve problems and improve. I believe in consistent progress and technology that makes a difference."
-         data-pt="Cada projeto é uma oportunidade de experimentar, resolver problemas e evoluir. Acredito no progresso constante e em tecnologias que fazem a diferença.">
-        Every project is an opportunity to experiment, solve problems and improve. I believe in consistent progress and technology that makes a difference.
+        data-en="Every project is an opportunity to experiment, solve problems and improve. I believe in consistent progress, creativity and technology that makes a difference."
+        data-pt="Cada projeto é uma oportunidade de experimentar, resolver problemas e evoluir. Acredito no progresso constante, na criatividade e em tecnologias que fazem a diferença.">
+        Every project is an opportunity to experiment, solve problems and improve.
       </p>
     </section>
 
     <section id="contact" class="section contact">
-      <p class="eyebrow" data-en="04 — CONTACT" data-pt="04 — CONTATO">04 — CONTACT</p>
-      <h2 data-en="Have an idea? Let's connect." data-pt="Tem uma ideia? Vamos conversar.">
-        Have an idea? Let's connect.
-      </h2>
-      <p data-en="I'm open to conversations, collaborations and new opportunities."
-         data-pt="Estou aberto a conversas, colaborações e novas oportunidades.">
-        I'm open to conversations, collaborations and new opportunities.
+      <p class="eyebrow"
+        data-en="05 — CONTACT"
+        data-pt="05 — CONTATO">
+        05 — CONTACT
       </p>
-      <a href="https://github.com/porqueisso460-ship-it" target="_blank"
-         rel="noopener noreferrer" class="button primary">GitHub ↗</a>
+
+      <h2 data-en="Let's build something meaningful."
+        data-pt="Vamos construir algo significativo.">
+        Let's build something meaningful.
+      </h2>
+
+      <p data-en="Have a project, an idea or an opportunity? Find me on GitHub."
+        data-pt="Tem um projeto, uma ideia ou uma oportunidade? Encontre-me no GitHub.">
+        Have a project, an idea or an opportunity? Find me on GitHub.
+      </p>
+
+      <a href="https://github.com/porqueisso460-ship-it"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button primary">
+        GitHub ↗
+      </a>
     </section>
+
   </main>
 
   <footer>
-    <a href="#" class="logo">ALEX<span>DEV.</span></a>
-    <p>© <span id="year"></span> Alex Dev. <span data-en="Built with curiosity." data-pt="Feito com curiosidade.">Built with curiosity.</span></p>
+    <a href="#home" class="logo">ALEX<span>DEV.</span></a>
+
+    <p>
+      © <span id="year"></span> Alex Dev.
+      <span data-en="Built with curiosity."
+        data-pt="Feito com curiosidade.">
+        Built with curiosity.
+      </span>
+    </p>
   </footer>
 
   <script src="script.js"></script>
